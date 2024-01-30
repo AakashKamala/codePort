@@ -1,0 +1,64 @@
+body{
+    background-color: #00FF00;
+}
+
+.code-converter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .input-section {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00ff00; /* Green label color */
+  }
+  
+  textarea,
+  input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #333; /* Dark input background */
+    color: #ffffff; /* Light text color */
+    border: 1px solid #666;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007acc; /* Dark blue button */
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #444; /* Dark gray disabled button */
+    cursor: not-allowed;
+  }
+  
+  .result-section {
+    margin-top: 20px;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    font-size: 14px;
+    background-color: #2b2b2b; /* Dark result background */
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    color: #00ff00; /* Light result text color */
+  }
+  
